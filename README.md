@@ -1,4 +1,4 @@
-# 🏥 Sistema de Gestão Hospitalar VidaPlus
+# 🏥 Gestão Hospitalar VidaPlus
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python 3.8+"/>
@@ -7,45 +7,39 @@
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange.svg" alt="Status"/>
 </div>
 
-## 📋 Sobre o Projeto
+*📋 Sobre o Projeto*
 
 O VidaPlus é um sistema moderno de gestão hospitalar desenvolvido para centralizar e otimizar todas as operações relacionadas à saúde. Nossa solução integra hospitais, clínicas, laboratórios e equipes de home care em uma única plataforma.
 
-### ✨ Principais Funcionalidades
+ Principais Funcionalidades
 
-- 👤 **Gestão de Pacientes**
-  - Cadastro completo
+- 👤 *Gestão de Pacientes*
+  - Cadastro 
   - Histórico médico
   - Agendamento de consultas
-  - Prontuários eletrônicos
+  - Prontuários
 
-- 👨‍⚕️ **Gestão de Profissionais**
+- *Gestão de Profissionais*
   - Cadastro de médicos
-  - Controle de agendas
-  - Prescrições digitais
+  - Agendamentos
+  - Prescrições médicas
   - Histórico de atendimentos
 
-- 🏥 **Administração Hospitalar**
+-  *Administração Hospitalar*
   - Controle de leitos
-  - Gestão de suprimentos
+  - Gestão de medicamentos
   - Relatórios financeiros
   - Indicadores de desempenho
 
-- 💻 **Telemedicina**
+-  *Telemedicina*
   - Consultas online
   - Prescrições digitais
   - Agendamento remoto
   - Prontuários eletrônicos
 
-## 🚀 Começando
+  *Começando*
 
-### Pré-requisitos
-
-- Python 3.8 ou superior
-- pip (gerenciador de pacotes Python)
-- Postman (para testes da API)
-
-### 🔧 Instalação
+ Instalação
 
 1. Clone o repositório
 ```bash
@@ -83,70 +77,60 @@ FLASK_APP=app.py
 python app.py
 ```
 
-## 📡 Endpoints da API
+ Endpoints da API
 
-### 🔐 Autenticação
+ Autenticação
 - `POST /api/auth/registro` - Registro de novo usuário
 - `POST /api/auth/login` - Login de usuário
 
-### 👤 Pacientes
+ Pacientes
 - `POST /api/pacientes` - Cadastro de novo paciente
 - `GET /api/pacientes/{id}` - Consulta de paciente
 - `PUT /api/pacientes/{id}` - Atualização de dados
 
-### 📅 Consultas
+ Consultas
 - `POST /api/consultas` - Agendamento de consulta
 - `GET /api/consultas/{id}` - Detalhes da consulta
 - `PUT /api/consultas/{id}` - Atualização de status
 
-### 📋 Prontuários
+ Prontuários
 - `POST /api/prontuarios` - Criação de prontuário
 - `GET /api/prontuarios/{id}` - Consulta de prontuário
 - `PUT /api/prontuarios/{id}` - Atualização de prontuário
 
-## 🛡️ Segurança
+Segurança
 
 - 🔒 Autenticação via JWT
 - 🔐 Senhas criptografadas com bcrypt
 - 👥 Controle de acesso por perfil
-- 📜 Conformidade com LGPD
-- 🔍 Registro de auditoria
 
-## 📊 Banco de Dados
+ Banco de Dados
 
 O sistema utiliza SQLite como banco de dados principal, com suporte para migração para PostgreSQL em ambiente de produção.
 
-## 🧪 Testes
+ Testes
 
 Para executar os testes:
 ```bash
 python -m pytest
 ```
 
-## 📝 Documentação
+ Documentação
 
 A documentação completa do sistema está disponível em:
 - [Documentação Técnica](DOCUMENTACAO.md)
 - [Guia de API](API.md)
 - [Manual do Usuário](MANUAL.md)
 
-## 🤝 Contribuindo
-
-1. Faça o fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 📞 Suporte
+Suporte
 
 Para suporte, envie um email para suporte@vidaplus.com ou abra uma issue no GitHub.
 
-## 🙏 Agradecimentos
+Referências
 
 - [Flask](https://flask.palletsprojects.com/)
 - [SQLAlchemy](https://www.sqlalchemy.org/)
@@ -155,6 +139,6 @@ Para suporte, envie um email para suporte@vidaplus.com ou abra uma issue no GitH
 
 ---
 <div align="center">
-  <p>Desenvolvido com ❤️ pela equipe VidaPlus</p>
-  <p>© 2024 VidaPlus - Todos os direitos reservados</p>
+  <p>Desenvolvido por Willian Sureck</p>
+  <p>© 2025 VidaPlus - Todos os direitos reservados</p>
 </div> 
